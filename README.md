@@ -8,7 +8,7 @@ Bu içeriği, bir bölümü bölebilir olup olmadığını kontrol etmek için k
 Benzer şekilde, verileri paralel olarak çalıştırması gereken yüksek çalıştırma maliyetlerini de bu şekilde kullanılabilir. Veriler iki eşit parçaya bölünerek ayrı ayrı işlenebilir, bu da işlem süreleri boyunca. Ayrıca, bu işlemi, bir işlemi bölmeleri ayırma hızının uygulanabileceği daha geniş bir alanda da kullanılabilir.
 
 
-Algoritmanın Çalışma Şekl:  
+Algoritmanın Çalışma Şekli:  
 Bu açıklamayı, dinamik programlama yaklaşımını kullanarak, verilen dizini iki eşit alt küme halinde bölünüp bölünemeyeceğini bulur.
 
 İlk olarak, verilen dizin birimlerinin toplamını bulunur ve toplamın 2'ye tam olarak bölünebildiğinden emin olunur. Eğer 2’ye bölünemezse dizi toplamları eşit altkümelere bölünemez. Daha sonra, dinamik programlama ile alt kümelerin toplamlarının mümkün olup olmadığı kontrol edilir. Bu işlem, alt kümelerin toplamlarının hesaplanabileceği bir tablo hazırlanır. Bu tablo, bir satırdaki önceki alt kümelerin toplamlarını kullanarak, bir sonraki alt kümelerin toplamlarını hesaplar. Bu hesaplama, alt kümelerin toplamlarının hedef toplama eşit olup olmadığı kontrol edilerek yapılır.
