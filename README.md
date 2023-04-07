@@ -1,4 +1,4 @@
-# eksik-eleman
+#  esit altkume
 Algoritmanın Amacı: 
 Bu algoritmanın amacı, verilen bir tamsayı dizisinin her iki alt bölümünün birimlerinin toplamı eşit olacak şekilde bölünüp bölünemeyeceğini belirlemektir. Örneğin, bir kutu probleminde, bir kutuya özgü bir ağırlığa sahipken, çantaya konulacak ağırlık da verilir. Bu problemde, çantaya konulacak ağırlığın iki eşit parçaya bölünüp bölünemeyeceği kontrol edilir.
 
